@@ -2,6 +2,7 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { env } from "./lib/env.js";
 import { WooCommerceError } from "./lib/woocommerce.js";
+import { checkRedisHealth } from "./lib/redis.js";
 import { orders } from "./routes/orders.js";
 import { payments } from "./routes/payments.js";
 
@@ -29,7 +30,12 @@ app.onError((err, c) => {
   return c.json({ error: "Internal server error" }, 500);
 });
 
-app.get("/health", (c) => c.json({ ok: true }));
+// Sempre responde 200 mesmo se o Redis estiver fora do ar — o app não deve
+// depender do cache para ficar de pé. Timeout de 3s garantido pelo cliente Redis.
+app.get("/health", async (c) => {
+  const redis = await checkRedisHealth();
+  return c.json({ ok: true, redis });
+});
 
 app.route("/orders", orders);
 app.route("/payments", payments);
