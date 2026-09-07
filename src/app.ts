@@ -8,7 +8,7 @@ import { payments } from "./routes/payments.js";
 
 export const app = new Hono().basePath("/api");
 
-app.use("*", cors({ origin: env.allowedOrigin }));
+app.use("*", cors({ origin: env.allowedOrigins }));
 
 // Token compartilhado opcional (APP_SHARED_TOKEN) — se não configurado, não exige nada.
 app.use("*", async (c, next) => {

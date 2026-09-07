@@ -22,8 +22,13 @@ export const env = {
   get upstashToken() {
     return required("UPSTASH_REDIS_REST_TOKEN");
   },
-  get allowedOrigin() {
-    return process.env.ALLOWED_ORIGIN ?? "*";
+  // Lista de origens permitidas (CORS), separadas por vírgula — ex.:
+  // "https://adoratta-app.vercel.app,http://localhost:5173". Sem a env var,
+  // libera geral (comportamento anterior).
+  get allowedOrigins() {
+    const raw = process.env.ALLOWED_ORIGIN ?? "*";
+    if (raw === "*") return "*";
+    return raw.split(",").map((origin) => origin.trim()).filter(Boolean);
   },
   get appSharedToken() {
     return process.env.APP_SHARED_TOKEN ?? null;
