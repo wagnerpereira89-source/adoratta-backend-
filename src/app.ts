@@ -8,7 +8,22 @@ import { payments } from "./routes/payments.js";
 
 export const app = new Hono().basePath("/api");
 
-app.use("*", cors({ origin: env.allowedOrigins }));
+// localhost/127.0.0.1 em qualquer porta é sempre aceito (dev local), além das
+// origens de produção configuradas em ALLOWED_ORIGIN — assim o dev não fica
+// refém de manter essa env var em sincronia com a porta do Vite.
+const LOCALHOST_ORIGIN = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
+
+app.use(
+  "*",
+  cors({
+    origin: (origin) => {
+      const allowed = env.allowedOrigins;
+      if (allowed === "*") return "*";
+      if (LOCALHOST_ORIGIN.test(origin)) return origin;
+      return allowed.includes(origin) ? origin : undefined;
+    },
+  }),
+);
 
 // Token compartilhado opcional (APP_SHARED_TOKEN) — se não configurado, não exige nada.
 app.use("*", async (c, next) => {
