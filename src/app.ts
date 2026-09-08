@@ -13,6 +13,14 @@ export const app = new Hono().basePath("/api");
 // refém de manter essa env var em sincronia com a porta do Vite.
 const LOCALHOST_ORIGIN = /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/;
 
+// Deploys de preview da Vercel para o app (adoratta-app) — a Vercel gera uma
+// URL nova a cada deploy/branch, sempre no formato
+// adoratta<algo>-wagnerpereira89-sources-projects.vercel.app (o "<algo>" varia:
+// hash do deploy, nome da branch truncado, etc.). Sem isso, cada preview novo
+// exigiria atualizar ALLOWED_ORIGIN manualmente. Escopo restrito ao subdomínio
+// da equipe/projeto na Vercel — não libera vercel.app em geral.
+const VERCEL_PREVIEW_ORIGIN = /^https:\/\/adoratta[a-z0-9-]*-wagnerpereira89-sources-projects\.vercel\.app$/;
+
 app.use(
   "*",
   cors({
@@ -20,6 +28,7 @@ app.use(
       const allowed = env.allowedOrigins;
       if (allowed === "*") return "*";
       if (LOCALHOST_ORIGIN.test(origin)) return origin;
+      if (VERCEL_PREVIEW_ORIGIN.test(origin)) return origin;
       return allowed.includes(origin) ? origin : undefined;
     },
   }),
