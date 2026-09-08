@@ -25,7 +25,8 @@ orders.get("/", async (c) => {
     async () => {
       const { data } = await wcGet<unknown[]>("/orders", {
         status,
-        search: search ?? cpf,
+        search,
+        cpf,
         include,
         _fields: ORDER_LIST_FIELDS,
         per_page: 100,

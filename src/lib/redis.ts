@@ -29,6 +29,7 @@ export const CACHE_PREFIX = {
   ordersList: "orders:list:",
   ordersAll: "orders:all:",
   orderNotes: "orders:notes:",
+  paymentsSummary: "payments:summary:",
 } as const;
 
 // Se o Redis falhar ou estourar o timeout, trata como cache miss em vez de
