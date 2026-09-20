@@ -2,7 +2,13 @@ import { Hono } from "hono";
 import pLimit from "p-limit";
 import { wcGet } from "../lib/woocommerce.js";
 import { getCached, setCached, CACHE_PREFIX } from "../lib/redis.js";
-import { classifyPaymentMethodFromNotes, isSaleStatus, type PaymentMethod } from "../lib/status.js";
+import {
+  classifyPaymentMethodFromMeta,
+  classifyPaymentMethodFromNotes,
+  isSaleStatus,
+  ORDER_PAYMENT_FIELDS,
+  type PaymentMethod,
+} from "../lib/status.js";
 
 export const payments = new Hono();
 
@@ -10,51 +16,58 @@ interface OrderNote {
   note?: string;
 }
 
+interface OrderMetaEntry {
+  key?: string;
+}
+
+interface OrderForPayment {
+  id: number;
+  status: string;
+  meta_data?: OrderMetaEntry[];
+}
+
 // Função Edge da Vercel tem teto de execução fixo (~25s, não configurável).
-// Corta a busca de notas bem antes disso pra nunca estourar o timeout — o que
-// não deu tempo de classificar entra como "Outros" e o resumo fica marcado
-// como parcial (partial: true), com TTL curto pra tentar de novo em breve.
+// Com a classificação por meta_data (Netcred), a imensa maioria dos pedidos
+// nem chega a precisar de rede extra — esse orçamento agora só protege o
+// fallback de notas (gateway não reconhecido, ou pedido sem meta Netcred).
+// O que não deu tempo entra como "Outros" e o resumo fica marcado como
+// parcial (partial: true), com TTL curto pra tentar de novo em breve.
 const TIME_BUDGET_MS = 15_000;
 const SUMMARY_TTL_FULL = 10 * 60; // resumo completo: cache por 10min
 const SUMMARY_TTL_PARTIAL = 45; // resumo parcial: tenta recalcular logo
+const ORDER_METHOD_TTL = 60 * 60 * 24 * 90; // 90 dias — a forma de pagamento de um pedido fechado não muda
 
-// Mesmo formato de chave que /orders/all usa (ver routes/orders.ts). O app
-// sempre chama getAllOrders() pro período antes de getPaymentsSummary() pro
-// MESMO período (ver Dashboard.jsx) — então essa lista quase sempre já está
-// quente no Redis, e a gente evita paginar o WooCommerce de novo só pra pegar
-// os IDs que a outra rota acabou de buscar.
-async function getOrderIdsForPeriod(after: string | undefined, before: string | undefined): Promise<number[]> {
-  const ordersAllKey = `${CACHE_PREFIX.ordersAll}${JSON.stringify({ after, before })}`;
-  const cached = await getCached<Array<{ id: number; status: string }>>(ordersAllKey);
-  if (cached) {
-    return cached.filter((o) => isSaleStatus(o.status)).map((o) => o.id);
-  }
-
+// Busca dedicada (não reaproveita o cache de /orders/all — ORDER_ALL_FIELDS
+// não inclui meta_data, e não deve incluir, pra não inflar aquele endpoint
+// com um campo que só pagamentos precisa).
+async function getOrdersForPeriod(after: string | undefined, before: string | undefined): Promise<OrderForPayment[]> {
   const perPage = 100;
   const maxPages = 10;
-  const ids: number[] = [];
+  const orders: OrderForPayment[] = [];
 
   for (let page = 1; page <= maxPages; page++) {
-    const { data, headers } = await wcGet<Array<{ id: number; status: string }>>("/orders", {
+    const { data, headers } = await wcGet<OrderForPayment[]>("/orders", {
       after,
       before,
       page,
       per_page: perPage,
-      _fields: "id,status",
+      _fields: ORDER_PAYMENT_FIELDS,
     });
     for (const order of data) {
-      if (isSaleStatus(order.status)) ids.push(order.id);
+      if (isSaleStatus(order.status)) orders.push(order);
     }
 
     const totalPages = Number(headers.get("x-wp-totalpages") ?? "1");
     if (page >= totalPages) break;
   }
 
-  return ids;
+  return orders;
 }
 
-// As notas de um pedido não mudam com o tempo — cache longo (5 min) por orderId.
-async function getPaymentMethodForOrder(orderId: number, bypass: boolean): Promise<PaymentMethod> {
+// Fallback: só chamado quando classifyPaymentMethodFromMeta não reconhece o
+// pedido. A forma de pagamento de um pedido fechado não muda — cache de 90
+// dias por orderId, não 5 minutos.
+async function getPaymentMethodFromNotes(orderId: number, bypass: boolean): Promise<PaymentMethod> {
   const key = `${CACHE_PREFIX.orderNotes}${orderId}`;
   if (!bypass) {
     const cached = await getCached<PaymentMethod>(key);
@@ -64,7 +77,7 @@ async function getPaymentMethodForOrder(orderId: number, bypass: boolean): Promi
   const { data } = await wcGet<OrderNote[]>(`/orders/${orderId}/notes`);
   const noteTexts = data.map((note) => note.note ?? "");
   const method = classifyPaymentMethodFromNotes(noteTexts);
-  await setCached(key, method, 300);
+  await setCached(key, method, ORDER_METHOD_TTL);
   return method;
 }
 
@@ -80,8 +93,10 @@ function normalizePeriodKey(value: string | undefined): string {
   return d.toISOString();
 }
 
-// GET /payments/summary?after=&before= — busca os pedidos do período, busca as notas
-// de cada um com concorrência limitada, e retorna já agregado (cacheado).
+// GET /payments/summary?after=&before= — busca os pedidos do período (já com
+// meta_data), classifica a maioria na hora pelo meta da Netcred, e só recorre
+// a /notes (com concorrência limitada) pros poucos que sobrarem sem meta
+// reconhecido. Retorna já agregado (cacheado).
 payments.get("/summary", async (c) => {
   const after = c.req.query("after");
   const before = c.req.query("before");
@@ -99,29 +114,38 @@ payments.get("/summary", async (c) => {
   }
   console.log(`[payments/summary] MISS key=${summaryKey}`);
 
-  const orderIds = await getOrderIdsForPeriod(after, before);
+  const orders = await getOrdersForPeriod(after, before);
 
   const limit = pLimit(8);
   const counts: Record<PaymentMethod, number> = { PIX: 0, "Cartão de Crédito": 0, Outros: 0 };
   let processed = 0;
+  let fallbackCount = 0;
   let partial = false;
 
   await Promise.all(
-    orderIds.map((id) =>
+    orders.map((order) =>
       limit(async () => {
+        const fromMeta = classifyPaymentMethodFromMeta(order.meta_data);
+        if (fromMeta) {
+          counts[fromMeta]++;
+          processed++;
+          return;
+        }
+
+        fallbackCount++;
         if (Date.now() - start > TIME_BUDGET_MS) {
           partial = true;
           counts.Outros++;
           return;
         }
-        const method = await getPaymentMethodForOrder(id, bypass);
+        const method = await getPaymentMethodFromNotes(order.id, bypass);
         counts[method]++;
         processed++;
       }),
     ),
   );
 
-  const total = orderIds.length;
+  const total = orders.length;
   const percentages = Object.fromEntries(
     Object.entries(counts).map(([method, count]) => [
       method,
@@ -133,7 +157,7 @@ payments.get("/summary", async (c) => {
   await setCached(summaryKey, result, partial ? SUMMARY_TTL_PARTIAL : SUMMARY_TTL_FULL);
 
   console.log(
-    `[payments/summary] computed key=${summaryKey} orders=${total} processed=${processed} partial=${partial} in ${Date.now() - start}ms`,
+    `[payments/summary] computed key=${summaryKey} orders=${total} processed=${processed} fallback=${fallbackCount} partial=${partial} in ${Date.now() - start}ms`,
   );
 
   return c.json(result);

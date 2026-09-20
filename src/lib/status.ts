@@ -56,6 +56,28 @@ export function getDeliveryType(shippingLines: ShippingLine[] | undefined | null
 
 export type PaymentMethod = "PIX" | "Cartão de Crédito" | "Outros";
 
+interface OrderMetaEntry {
+  key?: string;
+}
+
+// Caminho PRINCIPAL de classificação: a Netcred (único gateway em uso na loja)
+// grava metas exclusivas de cada forma de pagamento no próprio pedido
+// (_netcred_pix_copy_paste, _netcred_pix_discount_rate... vs
+// _netcred_card_installments, _netcred_card_total_paid...) — já vem junto
+// com a listagem de pedidos, sem precisar abrir /notes de cada um. Retorna
+// null quando não reconhece nenhum dos dois (gateway diferente da Netcred,
+// ou pedido sem essas metas) — nesse caso quem chama decide se cai no
+// fallback de notas, não vira "Outros" direto.
+export function classifyPaymentMethodFromMeta(metaData: OrderMetaEntry[] | undefined): PaymentMethod | null {
+  const keys = (metaData ?? []).map((m) => m.key ?? "");
+  if (keys.some((k) => k.startsWith("_netcred_pix_"))) return "PIX";
+  if (keys.some((k) => k.startsWith("_netcred_card_"))) return "Cartão de Crédito";
+  return null;
+}
+
+// Fallback: usado só quando classifyPaymentMethodFromMeta não reconhece o
+// pedido (gateway futuro diferente da Netcred). Mantido pra não depender de
+// um único fornecedor de pagamento pra sempre.
 export function classifyPaymentMethodFromNotes(notes: string[]): PaymentMethod {
   const text = notes.join(" \n ").toLowerCase();
 
@@ -91,3 +113,9 @@ export const ORDER_ALL_FIELDS = [
   "line_items",
   "payment_method_title",
 ].join(",");
+
+// Campos usados só por /payments/summary — meta_data é pesado (~1,3KB/pedido
+// de média) e a maior parte é ruído não relacionado a pagamento (rastreio dos
+// Correios, tracking de eventos etc.), então fica de fora do ORDER_ALL_FIELDS
+// pra não inflar a resposta de /orders/all, que não precisa disso.
+export const ORDER_PAYMENT_FIELDS = ["id", "status", "meta_data"].join(",");
