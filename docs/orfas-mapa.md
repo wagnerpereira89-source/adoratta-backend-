@@ -35,6 +35,27 @@ latente se forem publicados sem antes resolver isso).
 **Isso significa que a regra ingênua "sempre apaga a de ID maior" é insegura** para
 uma parte real do catálogo — apagaria a única variação comprável daquela cor/tamanho.
 
+## Achado adicional: o "bug da foto" na loja é o MESMO problema
+
+Investigação do plugin `fk-variacao-estoque` (da FK, usado pela Adoratta) explica um
+sintoma relatado à parte — a variação abre numa cor (ex: Azul) mas mostra a foto de
+outra cor:
+
+- O plugin troca automaticamente a variação pré-selecionada pela primeira **com
+  estoque**, quando a padrão está esgotada. Comportamento correto e intencional — não
+  é bug do plugin nem do tema.
+- Como a variação "fica" (a que o app edita) está com estoque zero e o estoque real
+  está na órfã duplicada, o plugin enxerga a cor padrão como esgotada e pula pra outra
+  cor que tem estoque de verdade — daí a foto trocar sozinha ao carregar a página.
+- Clicar manualmente na cor força a variação órfã (a que tem estoque) e "conserta" na
+  hora — o que mascarava a causa real até agora.
+
+**Conclusão: o bug da foto e a limpeza das órfãs são o mesmo trabalho.** Resolver a
+duplicação (garantir 1 variação por cor, com o estoque certo) faz o plugin voltar a
+funcionar normalmente e a foto parar de pular sozinha. **Não mexer no
+`fk-variacao-estoque`** — ele está correto; o dado por trás dele é que está bagunçado
+pelas órfãs.
+
 ## Números
 
 | | |
