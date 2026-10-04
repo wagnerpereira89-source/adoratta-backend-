@@ -1,0 +1,642 @@
+{
+  "backupTakenAt": "2026-10-04T15:41:21.984Z",
+  "product": {
+    "id": 6464,
+    "name": "Colete Jeans Rosa",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "G",
+          "M",
+          "P"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Rosa"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 12299,
+      "type": "variation",
+      "date_created": "2026-09-10T19:42:11",
+      "date_created_gmt": "2026-09-10T22:42:11",
+      "date_modified": "2026-09-10T19:42:11",
+      "date_modified_gmt": "2026-09-10T22:42:11",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=p&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [],
+      "name": "P, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/12299",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12298,
+      "type": "variation",
+      "date_created": "2026-09-10T19:42:11",
+      "date_created_gmt": "2026-09-10T22:42:11",
+      "date_modified": "2026-09-10T19:42:11",
+      "date_modified_gmt": "2026-09-10T22:42:11",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=m&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [],
+      "name": "M, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/12298",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12297,
+      "type": "variation",
+      "date_created": "2026-09-10T19:42:11",
+      "date_created_gmt": "2026-09-10T22:42:11",
+      "date_modified": "2026-09-10T19:42:11",
+      "date_modified_gmt": "2026-09-10T22:42:11",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=g&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [],
+      "name": "G, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/12297",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7107,
+      "type": "variation",
+      "date_created": "2026-07-03T09:50:31",
+      "date_created_gmt": "2026-07-03T12:50:31",
+      "date_modified": "2026-09-10T20:16:19",
+      "date_modified_gmt": "2026-09-10T23:16:19",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=p&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 113196,
+          "key": "_last_change_time",
+          "value": "1789082179"
+        }
+      ],
+      "name": "P, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/7107",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7106,
+      "type": "variation",
+      "date_created": "2026-07-03T09:50:31",
+      "date_created_gmt": "2026-07-03T12:50:31",
+      "date_modified": "2026-09-10T20:16:18",
+      "date_modified_gmt": "2026-09-10T23:16:18",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=m&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 1,
+      "stock_status": "instock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 212861,
+          "key": "_last_change_time",
+          "value": "1789082178"
+        }
+      ],
+      "name": "M, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/7106",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7105,
+      "type": "variation",
+      "date_created": "2026-07-03T09:50:31",
+      "date_created_gmt": "2026-07-03T12:50:31",
+      "date_modified": "2026-09-10T20:16:18",
+      "date_modified_gmt": "2026-09-10T23:16:18",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6464&attribute_pa_tamanho=g&attribute_pa_cor=rosa",
+      "sku": "0156",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 2,
+      "stock_status": "instock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7104,
+        "date_created": "2026-07-03T06:49:17",
+        "date_created_gmt": "2026-07-03T12:49:17",
+        "date_modified": "2026-09-10T16:42:10",
+        "date_modified_gmt": "2026-09-10T22:42:10",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_1108-cf278583e44d3d850717688797821087-640-0.webp",
+        "name": "img_1108-cf278583e44d3d850717688797821087-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Rosa"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 113199,
+          "key": "_last_change_time",
+          "value": "1789082179"
+        }
+      ],
+      "name": "G, Rosa",
+      "parent_id": 6464,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations/7105",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6464"
+          }
+        ]
+      }
+    }
+  ]
+}
