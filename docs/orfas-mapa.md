@@ -6,8 +6,27 @@ duplicadas causadas pelo bug de "Aplicar a todos" / save-antes-de-carregar do
 A correção parou a criação de novas órfãs; este documento é sobre limpar as que já
 existem no catálogo.
 
-**Status: pausado, nada apagado ainda.** Dados completos em [`orfas-mapa.json`](./orfas-mapa.json)
-(194 linhas). Este arquivo é o plano — leia antes de continuar numa sessão futura.
+**Status (2026-10-04): limpeza do Grupo Fácil em andamento.** Dados completos em
+[`orfas-mapa.json`](./orfas-mapa.json) (194 linhas, snapshot de 2026-09-20 — ver nota de
+revalidação abaixo). Backups por produto, feitos antes de cada exclusão, em
+[`backup-orfas/`](./backup-orfas/). Variações apagadas vão pra **lixeira do WooCommerce**
+(sem `force=true`), não exclusão permanente — reversível até alguém esvaziar a lixeira.
+
+### Nota de revalidação (2026-10-04)
+
+O `orfas-mapa.json` é um snapshot de 2026-09-20 — duas semanas antes da limpeza real
+começar. Na prática, 2 produtos que o mapa classificava como "Grupo Fácil" (draft, sem
+risco) **mudaram de estado real da loja** nesse intervalo:
+
+- **Jaqueta Monica (6622)**: era draft no mapa, está **publish** agora, com uma órfã
+  (12277, par Verde/G) com estoque 1.
+- **Cropped Sol (8585)**: era draft no mapa, está **publish** agora, com órfãs em
+  estoque real nas 3 cores (7, 3 e 3 unidades).
+
+Os dois foram **pulados sem nenhuma alteração** e devem ser tratados como Grupo
+Delicado, não Fácil. **Regra adotada daqui pra frente**: antes de apagar qualquer órfã,
+revalidar status e estoque ao vivo (não confiar só no `orfas-mapa.json`) — só prossegue
+se o produto for `draft` OU todas as órfãs tiverem estoque 0 no momento da checagem.
 
 ## Metodologia
 
