@@ -1,0 +1,242 @@
+{
+  "backupTakenAt": "2026-10-04T15:40:29.819Z",
+  "product": {
+    "id": 6375,
+    "name": "Conjunto Isa",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "TAM ÚNICO"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Branco"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 12303,
+      "type": "variation",
+      "date_created": "2026-09-10T19:43:12",
+      "date_created_gmt": "2026-09-10T22:43:12",
+      "date_modified": "2026-09-12T08:53:16",
+      "date_modified_gmt": "2026-09-12T11:53:16",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6375&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=branco",
+      "sku": "0224",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7079,
+        "date_created": "2026-07-02T15:27:40",
+        "date_created_gmt": "2026-07-02T21:27:40",
+        "date_modified": "2026-08-14T10:39:51",
+        "date_modified_gmt": "2026-08-14T16:39:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_0206-eea46c70e98e41892b17773401749423-640-0.webp",
+        "name": "img_0206-eea46c70e98e41892b17773401749423-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Branco"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 214731,
+          "key": "_last_change_time",
+          "value": "1789213996"
+        }
+      ],
+      "name": "TAM ÚNICO, Branco",
+      "parent_id": 6375,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375/variations/12303",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6376,
+      "type": "variation",
+      "date_created": "2026-06-25T17:14:15",
+      "date_created_gmt": "2026-06-25T20:14:15",
+      "date_modified": "2026-09-11T08:45:23",
+      "date_modified_gmt": "2026-09-11T11:45:23",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=6375&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=branco",
+      "sku": "0224",
+      "global_unique_id": "",
+      "price": "106.25",
+      "regular_price": "106.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 7079,
+        "date_created": "2026-07-02T15:27:40",
+        "date_created_gmt": "2026-07-02T21:27:40",
+        "date_modified": "2026-08-14T10:39:51",
+        "date_modified_gmt": "2026-08-14T16:39:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/img_0206-eea46c70e98e41892b17773401749423-640-0.webp",
+        "name": "img_0206-eea46c70e98e41892b17773401749423-640-0",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Branco"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 147818,
+          "key": "_last_change_time",
+          "value": "1789127123"
+        }
+      ],
+      "name": "TAM ÚNICO, Branco",
+      "parent_id": 6375,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375/variations/6376",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/6375"
+          }
+        ]
+      }
+    }
+  ]
+}
