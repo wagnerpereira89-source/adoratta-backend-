@@ -1,0 +1,825 @@
+{
+  "backupTakenAt": "2026-10-04T15:37:19.830Z",
+  "product": {
+    "id": 3095,
+    "name": "Blusa Larissa",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "TAM ÚNICO"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Azul Marinho",
+          "Off White",
+          "Verde"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 5846,
+      "type": "variation",
+      "date_created": "2026-06-23T09:52:33",
+      "date_created_gmt": "2026-06-23T12:52:33",
+      "date_modified": "2026-06-25T18:47:30",
+      "date_modified_gmt": "2026-06-25T21:47:30",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=verde",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "3",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Verde"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 102304,
+          "key": "_last_change_time",
+          "value": "1782424050"
+        }
+      ],
+      "name": "TAM ÚNICO, Verde",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/5846",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5845,
+      "type": "variation",
+      "date_created": "2026-06-23T09:52:33",
+      "date_created_gmt": "2026-06-23T12:52:33",
+      "date_modified": "2026-06-24T18:15:22",
+      "date_modified_gmt": "2026-06-24T21:15:22",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=off-white",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "3",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 98867,
+          "key": "_last_change_time",
+          "value": "1782335722"
+        }
+      ],
+      "name": "TAM ÚNICO, Off White",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/5845",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5844,
+      "type": "variation",
+      "date_created": "2026-06-23T09:52:33",
+      "date_created_gmt": "2026-06-23T12:52:33",
+      "date_modified": "2026-06-26T22:13:34",
+      "date_modified_gmt": "2026-06-27T01:13:34",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=azul-marinho",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "3",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Azul Marinho"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 102301,
+          "key": "_last_change_time",
+          "value": "1782522814"
+        }
+      ],
+      "name": "TAM ÚNICO, Azul Marinho",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/5844",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3390,
+      "type": "variation",
+      "date_created": "2026-06-08T17:29:12",
+      "date_created_gmt": "2026-06-08T20:29:12",
+      "date_modified": "2026-06-23T09:52:05",
+      "date_modified_gmt": "2026-06-23T12:52:05",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=azul-marinho",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "3",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Azul Marinho"
+        }
+      ],
+      "menu_order": 5,
+      "meta_data": [
+        {
+          "id": 45890,
+          "key": "_deal_sales_counts",
+          "value": "0"
+        },
+        {
+          "id": 45891,
+          "key": "_deal_quantity",
+          "value": ""
+        },
+        {
+          "id": 45892,
+          "key": "_wc_facebook_product_image_source",
+          "value": "product"
+        },
+        {
+          "id": 45893,
+          "key": "fb_mpn",
+          "value": ""
+        },
+        {
+          "id": 45894,
+          "key": "fb_product_image",
+          "value": ""
+        },
+        {
+          "id": 45895,
+          "key": "_wc_facebook_product_video_source",
+          "value": "upload"
+        },
+        {
+          "id": 45896,
+          "key": "fb_product_video",
+          "value": []
+        },
+        {
+          "id": 45897,
+          "key": "fb_product_images",
+          "value": ""
+        },
+        {
+          "id": 45898,
+          "key": "fb_product_price",
+          "value": ""
+        },
+        {
+          "id": 45899,
+          "key": "_wc_facebook_sync_enabled_v2",
+          "value": "yes"
+        },
+        {
+          "id": 45900,
+          "key": "fb_visibility",
+          "value": "yes"
+        },
+        {
+          "id": 46149,
+          "key": "_last_change_time",
+          "value": "1782219125"
+        }
+      ],
+      "name": "TAM ÚNICO, Azul Marinho",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/3390",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3389,
+      "type": "variation",
+      "date_created": "2026-06-08T17:29:09",
+      "date_created_gmt": "2026-06-08T20:29:09",
+      "date_modified": "2026-06-23T09:52:05",
+      "date_modified_gmt": "2026-06-23T12:52:05",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=verde",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "3",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Verde"
+        }
+      ],
+      "menu_order": 4,
+      "meta_data": [
+        {
+          "id": 45878,
+          "key": "_deal_sales_counts",
+          "value": "0"
+        },
+        {
+          "id": 45879,
+          "key": "_deal_quantity",
+          "value": ""
+        },
+        {
+          "id": 45880,
+          "key": "_wc_facebook_product_image_source",
+          "value": "product"
+        },
+        {
+          "id": 45881,
+          "key": "fb_mpn",
+          "value": ""
+        },
+        {
+          "id": 45882,
+          "key": "fb_product_image",
+          "value": ""
+        },
+        {
+          "id": 45883,
+          "key": "_wc_facebook_product_video_source",
+          "value": "upload"
+        },
+        {
+          "id": 45884,
+          "key": "fb_product_video",
+          "value": []
+        },
+        {
+          "id": 45885,
+          "key": "fb_product_images",
+          "value": ""
+        },
+        {
+          "id": 45886,
+          "key": "fb_product_price",
+          "value": ""
+        },
+        {
+          "id": 45887,
+          "key": "_wc_facebook_sync_enabled_v2",
+          "value": "yes"
+        },
+        {
+          "id": 45888,
+          "key": "fb_visibility",
+          "value": "yes"
+        },
+        {
+          "id": 46172,
+          "key": "_last_change_time",
+          "value": "1782219125"
+        }
+      ],
+      "name": "TAM ÚNICO, Verde",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/3389",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3097,
+      "type": "variation",
+      "date_created": "2026-06-08T14:24:28",
+      "date_created_gmt": "2026-06-08T17:24:28",
+      "date_modified": "2026-06-23T09:52:05",
+      "date_modified_gmt": "2026-06-23T12:52:05",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=3095&attribute_pa_tamanho=tamanho-unico&attribute_pa_cor=off-white",
+      "sku": "0234",
+      "global_unique_id": "",
+      "price": "37.50",
+      "regular_price": "37.50",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "200",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 4431,
+        "date_created": "2026-06-12T09:04:50",
+        "date_created_gmt": "2026-06-12T15:04:50",
+        "date_modified": "2026-06-23T06:52:05",
+        "date_modified_gmt": "2026-06-23T12:52:05",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/06/FullSizeRender-38-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        },
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        }
+      ],
+      "menu_order": 2,
+      "meta_data": [
+        {
+          "id": 45380,
+          "key": "_deal_sales_counts",
+          "value": "0"
+        },
+        {
+          "id": 45381,
+          "key": "_deal_quantity",
+          "value": ""
+        },
+        {
+          "id": 45382,
+          "key": "_wc_facebook_product_image_source",
+          "value": ""
+        },
+        {
+          "id": 45383,
+          "key": "fb_mpn",
+          "value": ""
+        },
+        {
+          "id": 45384,
+          "key": "fb_product_image",
+          "value": ""
+        },
+        {
+          "id": 45385,
+          "key": "_wc_facebook_product_video_source",
+          "value": ""
+        },
+        {
+          "id": 45386,
+          "key": "fb_product_video",
+          "value": []
+        },
+        {
+          "id": 45387,
+          "key": "fb_product_images",
+          "value": ""
+        },
+        {
+          "id": 45388,
+          "key": "fb_product_price",
+          "value": ""
+        },
+        {
+          "id": 45389,
+          "key": "_wc_facebook_sync_enabled_v2",
+          "value": "yes"
+        },
+        {
+          "id": 45390,
+          "key": "fb_visibility",
+          "value": "yes"
+        },
+        {
+          "id": 46178,
+          "key": "_last_change_time",
+          "value": "1782219125"
+        }
+      ],
+      "name": "TAM ÚNICO, Off White",
+      "parent_id": 3095,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations/3097",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/3095"
+          }
+        ]
+      }
+    }
+  ]
+}
