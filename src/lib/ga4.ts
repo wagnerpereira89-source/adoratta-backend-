@@ -29,7 +29,7 @@ function getClient(): BetaAnalyticsDataClient {
 // se a chamada gRPC travar (ex: handshake preso), a rota recebe o erro do
 // timeout e responde em vez de a função serverless estourar o próprio limite
 // sem nenhum log útil.
-function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+export function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
   return Promise.race([
     promise,
     new Promise<T>((_, reject) => {
