@@ -19,6 +19,7 @@ function normalizePeriodKey(value: string | undefined): string {
 // GET /analytics/summary?after=&before= — métricas do GA4 (usuários, páginas,
 // funil de conversão, origem de tráfego), cacheadas (a API do GA4 tem cota).
 analytics.get("/summary", async (c) => {
+  console.log("[analytics/summary] rota chamada");
   const after = c.req.query("after");
   const before = c.req.query("before");
   const bypass = c.req.header("x-refresh") === "1";
@@ -27,8 +28,12 @@ analytics.get("/summary", async (c) => {
 
   if (!bypass) {
     const cached = await getCached<GA4Summary>(summaryKey);
-    if (cached) return c.json(cached);
+    if (cached) {
+      console.log("[analytics/summary] HIT no cache, devolvendo direto");
+      return c.json(cached);
+    }
   }
+  console.log("[analytics/summary] MISS no cache — chamando getGA4Summary");
 
   let summary: GA4Summary;
   try {
@@ -37,10 +42,11 @@ analytics.get("/summary", async (c) => {
     // GA4 recém-ligado, sem dado, ou qualquer falha da API — nunca derruba a
     // rota. Devolve zerado (o app sabe renderizar isso) e não cacheia o erro,
     // pra próxima chamada tentar de novo.
-    console.error("[analytics/summary] GA4 falhou, devolvendo zerado:", error);
+    console.error("[analytics/summary] GA4 falhou, devolvendo zerado. Erro:", error);
     return c.json(EMPTY_GA4_SUMMARY);
   }
 
+  console.log("[analytics/summary] sucesso — gravando no cache e respondendo");
   await setCached(summaryKey, summary, SUMMARY_TTL);
   return c.json(summary);
 });

@@ -3,12 +3,39 @@ import { env } from "./env.js";
 
 let client: BetaAnalyticsDataClient | null = null;
 
+// Nunca loga o CONTEÚDO da credencial — só se ela chegou e se o parse/client
+// foram construídos sem exceção, pra diagnosticar sem expor segredo nenhum.
 function getClient(): BetaAnalyticsDataClient {
   if (!client) {
-    // credentials vem inteiro da env var GA4_CREDENTIALS_JSON — nunca de arquivo.
-    client = new BetaAnalyticsDataClient({ credentials: env.ga4Credentials as any });
+    const creds = env.ga4Credentials as Record<string, unknown>;
+    console.log(
+      "[ga4] credenciais carregadas — client_email presente:",
+      typeof creds.client_email === "string" && creds.client_email.length > 0,
+      "| private_key presente:",
+      typeof creds.private_key === "string" && creds.private_key.length > 0,
+    );
+    // fallback:true força a lib a usar REST (HTTP/1.1) em vez de gRPC. Local
+    // funciona com os dois, mas gRPC (HTTP/2, conexão de longa duração) é um
+    // padrão conhecido de travar em sandboxes serverless que congelam a
+    // função entre handshakes — REST é stateless, uma chamada por request,
+    // sem esse risco.
+    client = new BetaAnalyticsDataClient({ credentials: creds as any, fallback: true });
+    console.log("[ga4] BetaAnalyticsDataClient construído");
   }
   return client;
+}
+
+// Promise.race pra nunca deixar a rota pendurada esperando o GA4 pra sempre —
+// se a chamada gRPC travar (ex: handshake preso), a rota recebe o erro do
+// timeout e responde em vez de a função serverless estourar o próprio limite
+// sem nenhum log útil.
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+  return Promise.race([
+    promise,
+    new Promise<T>((_, reject) => {
+      setTimeout(() => reject(new Error(`[ga4] timeout de ${ms}ms em: ${label}`)), ms);
+    }),
+  ]);
 }
 
 export interface TrafficSource {
@@ -72,36 +99,52 @@ function toNumber(value: string | null | undefined): number {
   return Number.isFinite(n) ? n : 0;
 }
 
+const GA4_CALL_TIMEOUT_MS = 10_000;
+
 export async function getGA4Summary(after: string | undefined, before: string | undefined): Promise<GA4Summary> {
+  console.log("[ga4] getGA4Summary: início — after:", after, "| before:", before);
   const startDate = toGA4Date(after, sevenDaysAgoISODate());
   const endDate = toGA4Date(before, todayISODate());
   const property = `properties/${env.ga4PropertyId}`;
   const dateRanges = [{ startDate, endDate }];
+  console.log("[ga4] property:", property, "| startDate:", startDate, "| endDate:", endDate);
+
   const c = getClient();
 
+  console.log("[ga4] disparando as 3 chamadas runReport (timeout de", GA4_CALL_TIMEOUT_MS, "ms cada)...");
   // 3 chamadas em paralelo: totais, eventos nomeados, origem de tráfego.
   // Qualquer uma pode voltar sem `rows` (propriedade nova, sem dado ainda) —
-  // tratado explicitamente, nunca acessa rows[0] sem checar.
+  // tratado explicitamente, nunca acessa rows[0] sem checar. Cada uma tem seu
+  // próprio timeout — se o gRPC travar, isso rejeita em vez de pendurar a rota.
   const [totalsRes, eventsRes, trafficRes] = await Promise.all([
-    c.runReport({
-      property,
-      dateRanges,
-      metrics: [{ name: "activeUsers" }, { name: "screenPageViews" }],
-    }),
-    c.runReport({
-      property,
-      dateRanges,
-      dimensions: [{ name: "eventName" }],
-      metrics: [{ name: "eventCount" }],
-    }),
-    c.runReport({
-      property,
-      dateRanges,
-      dimensions: [{ name: "sessionDefaultChannelGroup" }],
-      metrics: [{ name: "sessions" }],
-      orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
-    }),
+    withTimeout(
+      c.runReport({ property, dateRanges, metrics: [{ name: "activeUsers" }, { name: "screenPageViews" }] }),
+      GA4_CALL_TIMEOUT_MS,
+      "runReport(totais)",
+    ).then((r) => { console.log("[ga4] runReport(totais) respondeu"); return r; }),
+    withTimeout(
+      c.runReport({
+        property,
+        dateRanges,
+        dimensions: [{ name: "eventName" }],
+        metrics: [{ name: "eventCount" }],
+      }),
+      GA4_CALL_TIMEOUT_MS,
+      "runReport(eventos)",
+    ).then((r) => { console.log("[ga4] runReport(eventos) respondeu"); return r; }),
+    withTimeout(
+      c.runReport({
+        property,
+        dateRanges,
+        dimensions: [{ name: "sessionDefaultChannelGroup" }],
+        metrics: [{ name: "sessions" }],
+        orderBys: [{ metric: { metricName: "sessions" }, desc: true }],
+      }),
+      GA4_CALL_TIMEOUT_MS,
+      "runReport(trafego)",
+    ).then((r) => { console.log("[ga4] runReport(trafego) respondeu"); return r; }),
   ]);
+  console.log("[ga4] as 3 chamadas voltaram — montando o resumo");
 
   const totalsRow = totalsRes[0]?.rows?.[0];
   const activeUsers = toNumber(totalsRow?.metricValues?.[0]?.value);
