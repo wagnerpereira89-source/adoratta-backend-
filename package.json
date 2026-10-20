@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@google-analytics/data": "^7.3.0",
     "@upstash/redis": "^1.34.3",
     "hono": "^4.6.14",
     "p-limit": "^6.2.0"

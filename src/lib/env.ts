@@ -33,4 +33,18 @@ export const env = {
   get appSharedToken() {
     return process.env.APP_SHARED_TOKEN ?? null;
   },
+  get ga4PropertyId() {
+    return required("GA4_PROPERTY_ID");
+  },
+  // Conteúdo INTEIRO do JSON da service account, como string — nunca lido de
+  // arquivo (serverless/Vercel não tem disco persistente). Parseado aqui, não
+  // guardado em lugar nenhum do código-fonte.
+  get ga4Credentials(): Record<string, unknown> {
+    const raw = required("GA4_CREDENTIALS_JSON");
+    try {
+      return JSON.parse(raw);
+    } catch {
+      throw new Error("GA4_CREDENTIALS_JSON não é um JSON válido");
+    }
+  },
 };

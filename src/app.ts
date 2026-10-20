@@ -5,6 +5,7 @@ import { WooCommerceError } from "./lib/woocommerce.js";
 import { checkRedisHealth } from "./lib/redis.js";
 import { orders } from "./routes/orders.js";
 import { payments } from "./routes/payments.js";
+import { analytics } from "./routes/analytics.js";
 
 export const app = new Hono().basePath("/api");
 
@@ -63,3 +64,4 @@ app.get("/health", async (c) => {
 
 app.route("/orders", orders);
 app.route("/payments", payments);
+app.route("/analytics", analytics);
