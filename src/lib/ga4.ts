@@ -5,22 +5,44 @@ let client: BetaAnalyticsDataClient | null = null;
 
 // Nunca loga o CONTEÚDO da credencial — só se ela chegou e se o parse/client
 // foram construídos sem exceção, pra diagnosticar sem expor segredo nenhum.
+// Isolado em try/catch PRÓPRIO (separado de qualquer falha de rede/auth que
+// vem depois) pra dizer com certeza se o problema é o parse do JSON em si.
 function getClient(): BetaAnalyticsDataClient {
   if (!client) {
-    const creds = env.ga4Credentials as Record<string, unknown>;
-    console.log(
-      "[ga4] credenciais carregadas — client_email presente:",
-      typeof creds.client_email === "string" && creds.client_email.length > 0,
-      "| private_key presente:",
-      typeof creds.private_key === "string" && creds.private_key.length > 0,
-    );
+    let creds: Record<string, unknown>;
+    try {
+      creds = env.ga4Credentials as Record<string, unknown>;
+      console.log(
+        "[ga4] credencial parseada OK — client_email presente:",
+        typeof creds.client_email === "string" && creds.client_email.length > 0,
+        "| private_key presente:",
+        typeof creds.private_key === "string" && creds.private_key.length > 0,
+        "| private_key começa com '-----BEGIN':",
+        typeof creds.private_key === "string" && creds.private_key.startsWith("-----BEGIN"),
+      );
+    } catch (error) {
+      console.error(
+        "[ga4] credencial FALHOU no parse:",
+        error instanceof Error ? error.constructor.name + ": " + error.message : String(error),
+      );
+      throw error;
+    }
+
     // fallback:true força a lib a usar REST (HTTP/1.1) em vez de gRPC. Local
     // funciona com os dois, mas gRPC (HTTP/2, conexão de longa duração) é um
     // padrão conhecido de travar em sandboxes serverless que congelam a
     // função entre handshakes — REST é stateless, uma chamada por request,
     // sem esse risco.
-    client = new BetaAnalyticsDataClient({ credentials: creds as any, fallback: true });
-    console.log("[ga4] BetaAnalyticsDataClient construído");
+    try {
+      client = new BetaAnalyticsDataClient({ credentials: creds as any, fallback: true });
+      console.log("[ga4] BetaAnalyticsDataClient construído OK");
+    } catch (error) {
+      console.error(
+        "[ga4] BetaAnalyticsDataClient FALHOU ao construir:",
+        error instanceof Error ? error.constructor.name + ": " + error.message : String(error),
+      );
+      throw error;
+    }
   }
   return client;
 }
@@ -116,12 +138,20 @@ export async function getGA4Summary(after: string | undefined, before: string | 
   // Qualquer uma pode voltar sem `rows` (propriedade nova, sem dado ainda) —
   // tratado explicitamente, nunca acessa rows[0] sem checar. Cada uma tem seu
   // próprio timeout — se o gRPC travar, isso rejeita em vez de pendurar a rota.
+  const logErr = (label: string) => (error: unknown) => {
+    console.error(
+      `[ga4] ${label} FALHOU:`,
+      error instanceof Error ? error.constructor.name + ": " + error.message : String(error),
+    );
+    throw error;
+  };
+
   const [totalsRes, eventsRes, trafficRes] = await Promise.all([
     withTimeout(
       c.runReport({ property, dateRanges, metrics: [{ name: "activeUsers" }, { name: "screenPageViews" }] }),
       GA4_CALL_TIMEOUT_MS,
       "runReport(totais)",
-    ).then((r) => { console.log("[ga4] runReport(totais) respondeu"); return r; }),
+    ).then((r) => { console.log("[ga4] runReport(totais) respondeu"); return r; }, logErr("runReport(totais)")),
     withTimeout(
       c.runReport({
         property,
@@ -131,7 +161,7 @@ export async function getGA4Summary(after: string | undefined, before: string | 
       }),
       GA4_CALL_TIMEOUT_MS,
       "runReport(eventos)",
-    ).then((r) => { console.log("[ga4] runReport(eventos) respondeu"); return r; }),
+    ).then((r) => { console.log("[ga4] runReport(eventos) respondeu"); return r; }, logErr("runReport(eventos)")),
     withTimeout(
       c.runReport({
         property,
@@ -142,7 +172,7 @@ export async function getGA4Summary(after: string | undefined, before: string | 
       }),
       GA4_CALL_TIMEOUT_MS,
       "runReport(trafego)",
-    ).then((r) => { console.log("[ga4] runReport(trafego) respondeu"); return r; }),
+    ).then((r) => { console.log("[ga4] runReport(trafego) respondeu"); return r; }, logErr("runReport(trafego)")),
   ]);
   console.log("[ga4] as 3 chamadas voltaram — montando o resumo");
 
