@@ -1,0 +1,436 @@
+{
+  "backupTakenAt": "2026-10-22T00:30:19.394Z",
+  "product": {
+    "id": 10251,
+    "name": "Kit colar+brinco oval",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Prata",
+          "Dourado"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 10268,
+      "type": "variation",
+      "date_created": "2026-08-10T22:54:48",
+      "date_created_gmt": "2026-08-11T01:54:48",
+      "date_modified": "2026-08-18T15:36:47",
+      "date_modified_gmt": "2026-08-18T18:36:47",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10251&attribute_pa_cor=dourado",
+      "sku": "0878",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10260,
+        "date_created": "2026-08-10T19:44:45",
+        "date_created_gmt": "2026-08-11T01:44:45",
+        "date_modified": "2026-08-10T19:44:56",
+        "date_modified_gmt": "2026-08-11T01:44:56",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6485-scaled.jpeg",
+        "name": "IMG_6485",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Dourado"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 173090,
+          "key": "_last_change_time",
+          "value": "1787078207"
+        },
+        {
+          "id": 190688,
+          "key": "fb_visibility",
+          "value": "no"
+        }
+      ],
+      "name": "Dourado",
+      "parent_id": 10251,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations/10268",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10267,
+      "type": "variation",
+      "date_created": "2026-08-10T22:54:48",
+      "date_created_gmt": "2026-08-11T01:54:48",
+      "date_modified": "2026-08-28T10:30:36",
+      "date_modified_gmt": "2026-08-28T13:30:36",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10251&attribute_pa_cor=prata",
+      "sku": "0878",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10260,
+        "date_created": "2026-08-10T19:44:45",
+        "date_created_gmt": "2026-08-11T01:44:45",
+        "date_modified": "2026-08-10T19:44:56",
+        "date_modified_gmt": "2026-08-11T01:44:56",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6485-scaled.jpeg",
+        "name": "IMG_6485",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Prata"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 173088,
+          "key": "_last_change_time",
+          "value": "1787923836"
+        },
+        {
+          "id": 190687,
+          "key": "fb_visibility",
+          "value": "no"
+        }
+      ],
+      "name": "Prata",
+      "parent_id": 10251,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations/10267",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10253,
+      "type": "variation",
+      "date_created": "2026-08-10T22:42:08",
+      "date_created_gmt": "2026-08-11T01:42:08",
+      "date_modified": "2026-08-13T18:04:49",
+      "date_modified_gmt": "2026-08-13T21:04:49",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10251&attribute_pa_cor=dourado",
+      "sku": "0878",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10260,
+        "date_created": "2026-08-10T19:44:45",
+        "date_created_gmt": "2026-08-11T01:44:45",
+        "date_modified": "2026-08-10T19:44:56",
+        "date_modified_gmt": "2026-08-11T01:44:56",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6485-scaled.jpeg",
+        "name": "IMG_6485",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Dourado"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 171172,
+          "key": "_last_change_time",
+          "value": "1786655089"
+        },
+        {
+          "id": 190686,
+          "key": "fb_visibility",
+          "value": "no"
+        }
+      ],
+      "name": "Dourado",
+      "parent_id": 10251,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations/10253",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10252,
+      "type": "variation",
+      "date_created": "2026-08-10T22:42:08",
+      "date_created_gmt": "2026-08-11T01:42:08",
+      "date_modified": "2026-08-13T18:04:52",
+      "date_modified_gmt": "2026-08-13T21:04:52",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10251&attribute_pa_cor=prata",
+      "sku": "0878",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10261,
+        "date_created": "2026-08-10T19:44:51",
+        "date_created_gmt": "2026-08-11T01:44:51",
+        "date_modified": "2026-08-10T19:44:51",
+        "date_modified_gmt": "2026-08-11T01:44:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6483-scaled.jpeg",
+        "name": "IMG_6483",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Prata"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 171173,
+          "key": "_last_change_time",
+          "value": "1786655092"
+        },
+        {
+          "id": 190685,
+          "key": "fb_visibility",
+          "value": "no"
+        }
+      ],
+      "name": "Prata",
+      "parent_id": 10251,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations/10252",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10251"
+          }
+        ]
+      }
+    }
+  ]
+}
