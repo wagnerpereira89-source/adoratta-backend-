@@ -1,0 +1,318 @@
+{
+  "backupTakenAt": "2026-10-22T00:30:44.675Z",
+  "product": {
+    "id": 10262,
+    "name": "Kit colar+brinco ponto de luz",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Prata",
+          "Dourado"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 10272,
+      "type": "variation",
+      "date_created": "2026-08-10T22:55:35",
+      "date_created_gmt": "2026-08-11T01:55:35",
+      "date_modified": "2026-08-28T10:30:30",
+      "date_modified_gmt": "2026-08-28T13:30:30",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10262&attribute_pa_cor=dourado",
+      "sku": "0877",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "25",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10269,
+        "date_created": "2026-08-10T19:55:24",
+        "date_created_gmt": "2026-08-11T01:55:24",
+        "date_modified": "2026-08-10T19:55:34",
+        "date_modified_gmt": "2026-08-11T01:55:34",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6479-scaled.jpeg",
+        "name": "IMG_6479",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Dourado"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178134,
+          "key": "_last_change_time",
+          "value": "1787923830"
+        }
+      ],
+      "name": "Dourado",
+      "parent_id": 10262,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations/10272",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10271,
+      "type": "variation",
+      "date_created": "2026-08-10T22:55:35",
+      "date_created_gmt": "2026-08-11T01:55:35",
+      "date_modified": "2026-08-28T10:30:31",
+      "date_modified_gmt": "2026-08-28T13:30:31",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10262&attribute_pa_cor=prata",
+      "sku": "0877",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "25",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10269,
+        "date_created": "2026-08-10T19:55:24",
+        "date_created_gmt": "2026-08-11T01:55:24",
+        "date_modified": "2026-08-10T19:55:34",
+        "date_modified_gmt": "2026-08-11T01:55:34",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6479-scaled.jpeg",
+        "name": "IMG_6479",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Prata"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 173084,
+          "key": "_last_change_time",
+          "value": "1787923831"
+        }
+      ],
+      "name": "Prata",
+      "parent_id": 10262,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations/10271",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10263,
+      "type": "variation",
+      "date_created": "2026-08-10T22:44:57",
+      "date_created_gmt": "2026-08-11T01:44:57",
+      "date_modified": "2026-08-13T18:03:21",
+      "date_modified_gmt": "2026-08-13T21:03:21",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10262&attribute_pa_cor=prata",
+      "sku": "0877",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "25",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10270,
+        "date_created": "2026-08-10T19:55:29",
+        "date_created_gmt": "2026-08-11T01:55:29",
+        "date_modified": "2026-08-10T19:55:29",
+        "date_modified_gmt": "2026-08-11T01:55:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6480-scaled.jpeg",
+        "name": "IMG_6480",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Prata"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 173081,
+          "key": "_last_change_time",
+          "value": "1786655001"
+        }
+      ],
+      "name": "Prata",
+      "parent_id": 10262,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations/10263",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10262"
+          }
+        ]
+      }
+    }
+  ]
+}
