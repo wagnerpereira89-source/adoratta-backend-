@@ -1,0 +1,376 @@
+{
+  "backupTakenAt": "2026-10-22T00:27:31.961Z",
+  "product": {
+    "id": 9140,
+    "name": "Vestido Leticia",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Branco",
+          "Preto"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Estampados",
+        "slug": "pa_estampados",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Poá"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "TAM ÚNICO"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 9336,
+      "type": "variation",
+      "date_created": "2026-07-28T14:09:38",
+      "date_created_gmt": "2026-07-28T17:09:38",
+      "date_modified": "2026-08-08T14:49:10",
+      "date_modified_gmt": "2026-08-08T17:49:10",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=9140&attribute_pa_cor=preto&attribute_pa_estampados=poa&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0802",
+      "global_unique_id": "",
+      "price": "125.00",
+      "regular_price": "125.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 9334,
+        "date_created": "2026-07-28T11:08:12",
+        "date_created_gmt": "2026-07-28T17:08:12",
+        "date_modified": "2026-07-28T11:08:12",
+        "date_modified_gmt": "2026-07-28T17:08:12",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/FullSizeRender-179-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 4,
+          "name": "Estampados",
+          "slug": "pa_estampados",
+          "option": "Poá"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 154638,
+          "key": "_last_change_time",
+          "value": "1786211350"
+        }
+      ],
+      "name": "Preto, Poá, TAM ÚNICO",
+      "parent_id": 9140,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations/9336",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9142,
+      "type": "variation",
+      "date_created": "2026-07-27T13:06:22",
+      "date_created_gmt": "2026-07-27T16:06:22",
+      "date_modified": "2026-09-14T12:14:39",
+      "date_modified_gmt": "2026-09-14T15:14:39",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=9140&attribute_pa_cor=branco&attribute_pa_estampados=poa&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0802",
+      "global_unique_id": "",
+      "price": "125.00",
+      "regular_price": "125.00",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 9332,
+        "date_created": "2026-07-28T11:07:53",
+        "date_created_gmt": "2026-07-28T17:07:53",
+        "date_modified": "2026-07-28T11:08:30",
+        "date_modified_gmt": "2026-07-28T17:08:30",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/FullSizeRender-177-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Branco"
+        },
+        {
+          "id": 4,
+          "name": "Estampados",
+          "slug": "pa_estampados",
+          "option": "Poá"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 156486,
+          "key": "_last_change_time",
+          "value": "1789398879"
+        }
+      ],
+      "name": "Branco, Poá, TAM ÚNICO",
+      "parent_id": 9140,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations/9142",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9141,
+      "type": "variation",
+      "date_created": "2026-07-27T13:05:42",
+      "date_created_gmt": "2026-07-27T16:05:42",
+      "date_modified": "2026-07-28T17:51:26",
+      "date_modified_gmt": "2026-07-28T20:51:26",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=9140&attribute_pa_cor=branco&attribute_pa_estampados=poa&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0802",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 9332,
+        "date_created": "2026-07-28T11:07:53",
+        "date_created_gmt": "2026-07-28T17:07:53",
+        "date_modified": "2026-07-28T11:08:30",
+        "date_modified_gmt": "2026-07-28T17:08:30",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/07/FullSizeRender-177-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Branco"
+        },
+        {
+          "id": 4,
+          "name": "Estampados",
+          "slug": "pa_estampados",
+          "option": "Poá"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 155006,
+          "key": "_last_change_time",
+          "value": "1785271886"
+        }
+      ],
+      "name": "Branco, Poá, TAM ÚNICO",
+      "parent_id": 9140,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations/9141",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/9140"
+          }
+        ]
+      }
+    }
+  ]
+}
