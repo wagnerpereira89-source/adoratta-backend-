@@ -1,0 +1,471 @@
+{
+  "backupTakenAt": "2026-10-22T02:12:05.190Z",
+  "product": {
+    "id": 11049,
+    "name": "T-shirt Matcha 0025 07",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Off White"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "TAM ÚNICO"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 12835,
+      "type": "variation",
+      "date_created": "2026-09-14T20:54:30",
+      "date_created_gmt": "2026-09-14T23:54:30",
+      "date_modified": "2026-10-19T12:54:45",
+      "date_modified_gmt": "2026-10-19T15:54:45",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11049&attribute_pa_cor=off-white&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0924",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12834,
+        "date_created": "2026-09-14T17:54:21",
+        "date_created_gmt": "2026-09-14T23:54:21",
+        "date_modified": "2026-09-14T17:54:29",
+        "date_modified_gmt": "2026-09-14T23:54:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/IMG_8144-scaled.jpeg",
+        "name": "IMG_8144",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 222440,
+          "key": "_last_change_time",
+          "value": "1792425285"
+        },
+        {
+          "id": 246084,
+          "key": "fb_visibility",
+          "value": "no"
+        }
+      ],
+      "name": "Off White, TAM ÚNICO",
+      "parent_id": 11049,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations/12835",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11152,
+      "type": "variation",
+      "date_created": "2026-08-24T20:31:05",
+      "date_created_gmt": "2026-08-24T23:31:05",
+      "date_modified": "2026-09-15T18:06:15",
+      "date_modified_gmt": "2026-09-15T21:06:15",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11049&attribute_pa_cor=off-white&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0924",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11693,
+        "date_created": "2026-09-01T10:34:46",
+        "date_created_gmt": "2026-09-01T16:34:46",
+        "date_modified": "2026-09-01T10:34:53",
+        "date_modified_gmt": "2026-09-01T16:34:53",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/FullSizeRender-35-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 2,
+      "meta_data": [
+        {
+          "id": 188694,
+          "key": "_last_change_time",
+          "value": "1789506375"
+        },
+        {
+          "id": 192744,
+          "key": "fb_visibility",
+          "value": "no"
+        },
+        {
+          "id": 197288,
+          "key": "ecomus_variation_images",
+          "value": ""
+        },
+        {
+          "id": 197289,
+          "key": "_deal_sales_counts",
+          "value": "0"
+        },
+        {
+          "id": 197290,
+          "key": "_deal_quantity",
+          "value": ""
+        },
+        {
+          "id": 197291,
+          "key": "_wc_facebook_product_image_source",
+          "value": "product"
+        },
+        {
+          "id": 197292,
+          "key": "fb_mpn",
+          "value": ""
+        },
+        {
+          "id": 197293,
+          "key": "fb_product_image",
+          "value": ""
+        },
+        {
+          "id": 197294,
+          "key": "_wc_facebook_product_video_source",
+          "value": "upload"
+        },
+        {
+          "id": 197295,
+          "key": "fb_product_video",
+          "value": []
+        },
+        {
+          "id": 197296,
+          "key": "fb_product_images",
+          "value": ""
+        },
+        {
+          "id": 197297,
+          "key": "fb_product_price",
+          "value": ""
+        },
+        {
+          "id": 197298,
+          "key": "_wc_facebook_sync_enabled_v2",
+          "value": "yes"
+        }
+      ],
+      "name": "Off White, TAM ÚNICO",
+      "parent_id": 11049,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations/11152",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11050,
+      "type": "variation",
+      "date_created": "2026-08-24T16:19:55",
+      "date_created_gmt": "2026-08-24T19:19:55",
+      "date_modified": "2026-09-01T14:02:50",
+      "date_modified_gmt": "2026-09-01T17:02:50",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11049&attribute_pa_cor=off-white&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0924",
+      "global_unique_id": "",
+      "price": "31.25",
+      "regular_price": "31.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11693,
+        "date_created": "2026-09-01T10:34:46",
+        "date_created_gmt": "2026-09-01T16:34:46",
+        "date_modified": "2026-09-01T10:34:53",
+        "date_modified_gmt": "2026-09-01T16:34:53",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/FullSizeRender-35-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 1,
+      "meta_data": [
+        {
+          "id": 186864,
+          "key": "_last_change_time",
+          "value": "1788280553"
+        },
+        {
+          "id": 192743,
+          "key": "fb_visibility",
+          "value": "no"
+        },
+        {
+          "id": 197299,
+          "key": "ecomus_variation_images",
+          "value": ""
+        },
+        {
+          "id": 197300,
+          "key": "_deal_sales_counts",
+          "value": "0"
+        },
+        {
+          "id": 197301,
+          "key": "_deal_quantity",
+          "value": ""
+        },
+        {
+          "id": 197302,
+          "key": "_wc_facebook_product_image_source",
+          "value": "product"
+        },
+        {
+          "id": 197303,
+          "key": "fb_mpn",
+          "value": ""
+        },
+        {
+          "id": 197304,
+          "key": "fb_product_image",
+          "value": ""
+        },
+        {
+          "id": 197305,
+          "key": "_wc_facebook_product_video_source",
+          "value": "upload"
+        },
+        {
+          "id": 197306,
+          "key": "fb_product_video",
+          "value": []
+        },
+        {
+          "id": 197307,
+          "key": "fb_product_images",
+          "value": ""
+        },
+        {
+          "id": 197308,
+          "key": "fb_product_price",
+          "value": ""
+        },
+        {
+          "id": 197309,
+          "key": "_wc_facebook_sync_enabled_v2",
+          "value": "yes"
+        }
+      ],
+      "name": "Off White, TAM ÚNICO",
+      "parent_id": 11049,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations/11050",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11049"
+          }
+        ]
+      }
+    }
+  ]
+}
