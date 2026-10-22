@@ -1,0 +1,242 @@
+{
+  "backupTakenAt": "2026-10-22T00:29:57.737Z",
+  "product": {
+    "id": 10226,
+    "name": "Brinco Gota (grande)",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Dourado"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "TAM ÚNICO"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 10524,
+      "type": "variation",
+      "date_created": "2026-08-14T12:57:50",
+      "date_created_gmt": "2026-08-14T15:57:50",
+      "date_modified": "2026-08-28T10:31:48",
+      "date_modified_gmt": "2026-08-28T13:31:48",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10226&attribute_pa_cor=dourado&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0870",
+      "global_unique_id": "",
+      "price": "12.50",
+      "regular_price": "20",
+      "sale_price": "12.50",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10248,
+        "date_created": "2026-08-10T19:41:18",
+        "date_created_gmt": "2026-08-11T01:41:18",
+        "date_modified": "2026-08-10T19:41:23",
+        "date_modified_gmt": "2026-08-11T01:41:23",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6467-scaled.jpeg",
+        "name": "IMG_6467",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Dourado"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178139,
+          "key": "_last_change_time",
+          "value": "1787923908"
+        }
+      ],
+      "name": "Dourado, TAM ÚNICO",
+      "parent_id": 10226,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226/variations/10524",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10227,
+      "type": "variation",
+      "date_created": "2026-08-10T22:14:14",
+      "date_created_gmt": "2026-08-11T01:14:14",
+      "date_modified": "2026-08-17T15:32:05",
+      "date_modified_gmt": "2026-08-17T18:32:05",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10226&attribute_pa_cor=dourado&attribute_pa_tamanho=tamanho-unico",
+      "sku": "0870",
+      "global_unique_id": "",
+      "price": "12.50",
+      "regular_price": "20",
+      "sale_price": "12.50",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.1",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10248,
+        "date_created": "2026-08-10T19:41:18",
+        "date_created_gmt": "2026-08-11T01:41:18",
+        "date_modified": "2026-08-10T19:41:23",
+        "date_modified_gmt": "2026-08-11T01:41:23",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6467-scaled.jpeg",
+        "name": "IMG_6467",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Dourado"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "TAM ÚNICO"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 175310,
+          "key": "_last_change_time",
+          "value": "1786991525"
+        }
+      ],
+      "name": "Dourado, TAM ÚNICO",
+      "parent_id": 10226,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226/variations/10227",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10226"
+          }
+        ]
+      }
+    }
+  ]
+}
