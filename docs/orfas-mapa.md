@@ -6,14 +6,20 @@ duplicadas causadas pelo bug de "Aplicar a todos" / save-antes-de-carregar do
 A correção parou a criação de novas órfãs; este documento é sobre limpar as que já
 existem no catálogo.
 
-**Status (2026-10-21): Grupo Fácil quase concluído.** Dados completos em
+**Status (2026-10-21): Grupo Fácil FECHADO.** Dados completos em
 [`orfas-mapa.json`](./orfas-mapa.json) (194 linhas, snapshot de 2026-09-20 — ver nota de
 revalidação abaixo). Backups por produto, feitos antes de cada exclusão, em
 [`backup-orfas/`](./backup-orfas/). Variações apagadas vão pra **lixeira do WooCommerce**
 (sem `force=true`), não exclusão permanente — reversível até alguém esvaziar a lixeira.
 
-24 produtos do Grupo Fácil limpos (piloto Sobretudo Liza 3410 + 23 outros), restam só os
-2 publicados deixados pro final (Sobretudo Joice 3124, Regata Jeans 6383).
+24 produtos do Grupo Fácil limpos de verdade (piloto Sobretudo Liza 3410 + 23 outros), 72
+órfãs na lixeira. Os 2 publicados deixados pro final (Sobretudo Joice 3124, Regata Jeans
+6383) **já estavam resolvidos sozinhos** na revalidação — zero pares duplicados, contagem
+batendo o "esperado" original — mesmo caso do T-shirt Amalfi (10081), nada pra apagar.
+Com isso, todo o Grupo Fácil original (29 produtos) está contabilizado: limpos, já
+resolvidos sozinhos, ou reclassificados pro Delicado. Próximo passo é o Grupo Delicado
+(23 produtos do mapa original + 6622, 8585, 10605 reclassificados = 26), que precisa de
+confirmação de estoque com a cliente antes de qualquer exclusão.
 
 ### Nota de revalidação (2026-10-04, atualizada 2026-10-21)
 
