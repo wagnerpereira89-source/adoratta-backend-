@@ -1,0 +1,810 @@
+{
+  "backupTakenAt": "2026-10-22T00:29:29.706Z",
+  "product": {
+    "id": 10096,
+    "name": "Calça Jeans wide leg 0105 14",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 3,
+        "name": "Número",
+        "slug": "pa_numero",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "36",
+          "38",
+          "40",
+          "42"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 12767,
+      "type": "variation",
+      "date_created": "2026-09-14T18:44:01",
+      "date_created_gmt": "2026-09-14T21:44:01",
+      "date_modified": "2026-09-18T10:14:56",
+      "date_modified_gmt": "2026-09-18T13:14:56",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=42",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12763,
+        "date_created": "2026-09-14T15:43:49",
+        "date_created_gmt": "2026-09-14T21:43:49",
+        "date_modified": "2026-09-14T15:44:00",
+        "date_modified_gmt": "2026-09-14T21:44:00",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/IMG_8109-scaled.jpeg",
+        "name": "IMG_8109",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "42"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 223658,
+          "key": "_last_change_time",
+          "value": "1789737296"
+        }
+      ],
+      "name": "42",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/12767",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12766,
+      "type": "variation",
+      "date_created": "2026-09-14T18:44:01",
+      "date_created_gmt": "2026-09-14T21:44:01",
+      "date_modified": "2026-09-16T16:32:19",
+      "date_modified_gmt": "2026-09-16T19:32:19",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=40",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12763,
+        "date_created": "2026-09-14T15:43:49",
+        "date_created_gmt": "2026-09-14T21:43:49",
+        "date_modified": "2026-09-14T15:44:00",
+        "date_modified_gmt": "2026-09-14T21:44:00",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/IMG_8109-scaled.jpeg",
+        "name": "IMG_8109",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "40"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 223137,
+          "key": "_last_change_time",
+          "value": "1789587139"
+        }
+      ],
+      "name": "40",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/12766",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12765,
+      "type": "variation",
+      "date_created": "2026-09-14T18:44:01",
+      "date_created_gmt": "2026-09-14T21:44:01",
+      "date_modified": "2026-09-17T10:35:35",
+      "date_modified_gmt": "2026-09-17T13:35:35",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=38",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12763,
+        "date_created": "2026-09-14T15:43:49",
+        "date_created_gmt": "2026-09-14T21:43:49",
+        "date_modified": "2026-09-14T15:44:00",
+        "date_modified_gmt": "2026-09-14T21:44:00",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/IMG_8109-scaled.jpeg",
+        "name": "IMG_8109",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "38"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 223248,
+          "key": "_last_change_time",
+          "value": "1789652135"
+        }
+      ],
+      "name": "38",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/12765",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12764,
+      "type": "variation",
+      "date_created": "2026-09-14T18:44:01",
+      "date_created_gmt": "2026-09-14T21:44:01",
+      "date_modified": "2026-09-16T16:32:12",
+      "date_modified_gmt": "2026-09-16T19:32:12",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=36",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12763,
+        "date_created": "2026-09-14T15:43:49",
+        "date_created_gmt": "2026-09-14T21:43:49",
+        "date_modified": "2026-09-14T15:44:00",
+        "date_modified_gmt": "2026-09-14T21:44:00",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/IMG_8109-scaled.jpeg",
+        "name": "IMG_8109",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "36"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 223135,
+          "key": "_last_change_time",
+          "value": "1789587132"
+        }
+      ],
+      "name": "36",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/12764",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10100,
+      "type": "variation",
+      "date_created": "2026-08-10T16:27:04",
+      "date_created_gmt": "2026-08-10T19:27:04",
+      "date_modified": "2026-09-16T11:54:44",
+      "date_modified_gmt": "2026-09-16T14:54:44",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=42",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12768,
+        "date_created": "2026-09-14T15:54:22",
+        "date_created_gmt": "2026-09-14T21:54:22",
+        "date_modified": "2026-09-14T15:54:29",
+        "date_modified_gmt": "2026-09-14T21:54:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/444626-scaled.jpg",
+        "name": "444626",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "42"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 169030,
+          "key": "_last_change_time",
+          "value": "1789570484"
+        }
+      ],
+      "name": "42",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/10100",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10099,
+      "type": "variation",
+      "date_created": "2026-08-10T16:27:04",
+      "date_created_gmt": "2026-08-10T19:27:04",
+      "date_modified": "2026-09-16T11:54:45",
+      "date_modified_gmt": "2026-09-16T14:54:45",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=40",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12768,
+        "date_created": "2026-09-14T15:54:22",
+        "date_created_gmt": "2026-09-14T21:54:22",
+        "date_modified": "2026-09-14T15:54:29",
+        "date_modified_gmt": "2026-09-14T21:54:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/444626-scaled.jpg",
+        "name": "444626",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "40"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 169033,
+          "key": "_last_change_time",
+          "value": "1789570485"
+        }
+      ],
+      "name": "40",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/10099",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10098,
+      "type": "variation",
+      "date_created": "2026-08-10T16:27:03",
+      "date_created_gmt": "2026-08-10T19:27:03",
+      "date_modified": "2026-09-16T11:54:46",
+      "date_modified_gmt": "2026-09-16T14:54:46",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=38",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12768,
+        "date_created": "2026-09-14T15:54:22",
+        "date_created_gmt": "2026-09-14T21:54:22",
+        "date_modified": "2026-09-14T15:54:29",
+        "date_modified_gmt": "2026-09-14T21:54:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/444626-scaled.jpg",
+        "name": "444626",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "38"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 169036,
+          "key": "_last_change_time",
+          "value": "1789570486"
+        }
+      ],
+      "name": "38",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/10098",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10097,
+      "type": "variation",
+      "date_created": "2026-08-10T16:27:03",
+      "date_created_gmt": "2026-08-10T19:27:03",
+      "date_modified": "2026-09-16T11:54:49",
+      "date_modified_gmt": "2026-09-16T14:54:49",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10096&attribute_pa_numero=36",
+      "sku": "0861",
+      "global_unique_id": "",
+      "price": "131.25",
+      "regular_price": "131.25",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "250",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 12768,
+        "date_created": "2026-09-14T15:54:22",
+        "date_created_gmt": "2026-09-14T21:54:22",
+        "date_modified": "2026-09-14T15:54:29",
+        "date_modified_gmt": "2026-09-14T21:54:29",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/09/444626-scaled.jpg",
+        "name": "444626",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "name": "Número",
+          "slug": "pa_numero",
+          "option": "36"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 169039,
+          "key": "_last_change_time",
+          "value": "1789570489"
+        }
+      ],
+      "name": "36",
+      "parent_id": 10096,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations/10097",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10096"
+          }
+        ]
+      }
+    }
+  ]
+}
