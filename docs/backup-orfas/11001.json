@@ -1,0 +1,613 @@
+{
+  "backupTakenAt": "2026-10-22T00:31:32.745Z",
+  "product": {
+    "id": 11001,
+    "name": "Blusa Lu",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Creme",
+          "Off White",
+          "Preto"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 11122,
+      "type": "variation",
+      "date_created": "2026-08-24T19:29:01",
+      "date_created_gmt": "2026-08-24T22:29:01",
+      "date_modified": "2026-10-14T16:39:14",
+      "date_modified_gmt": "2026-10-14T19:39:14",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=preto",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "43.75",
+      "regular_price": "43.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 192750,
+          "key": "_last_change_time",
+          "value": "1792006754"
+        }
+      ],
+      "name": "Preto",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11122",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11121,
+      "type": "variation",
+      "date_created": "2026-08-24T19:29:01",
+      "date_created_gmt": "2026-08-24T22:29:01",
+      "date_modified": "2026-09-12T08:50:23",
+      "date_modified_gmt": "2026-09-12T11:50:23",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=off-white",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "43.75",
+      "regular_price": "43.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 192748,
+          "key": "_last_change_time",
+          "value": "1789213823"
+        }
+      ],
+      "name": "Off White",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11121",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11120,
+      "type": "variation",
+      "date_created": "2026-08-24T19:29:01",
+      "date_created_gmt": "2026-08-24T22:29:01",
+      "date_modified": "2026-09-11T08:41:46",
+      "date_modified_gmt": "2026-09-11T11:41:46",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=creme",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "43.75",
+      "regular_price": "43.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Creme"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 189347,
+          "key": "_last_change_time",
+          "value": "1789126906"
+        }
+      ],
+      "name": "Creme",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11120",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11117,
+      "type": "variation",
+      "date_created": "2026-08-24T19:24:28",
+      "date_created_gmt": "2026-08-24T22:24:28",
+      "date_modified": "2026-08-26T12:58:07",
+      "date_modified_gmt": "2026-08-26T15:58:07",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=creme",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Creme"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 188705,
+          "key": "_last_change_time",
+          "value": "1787752410"
+        }
+      ],
+      "name": "Creme",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11117",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11116,
+      "type": "variation",
+      "date_created": "2026-08-24T19:24:28",
+      "date_created_gmt": "2026-08-24T22:24:28",
+      "date_modified": "2026-08-26T12:58:07",
+      "date_modified_gmt": "2026-08-26T15:58:07",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=off-white",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Off White"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 188707,
+          "key": "_last_change_time",
+          "value": "1787752412"
+        }
+      ],
+      "name": "Off White",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11116",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11002,
+      "type": "variation",
+      "date_created": "2026-08-24T13:34:52",
+      "date_created_gmt": "2026-08-24T16:34:52",
+      "date_modified": "2026-08-26T12:58:07",
+      "date_modified_gmt": "2026-08-26T15:58:07",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=11001&attribute_pa_cor=preto",
+      "sku": "0908",
+      "global_unique_id": "",
+      "price": "",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": false,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.2",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 11115,
+        "date_created": "2026-08-24T16:23:51",
+        "date_created_gmt": "2026-08-24T22:23:51",
+        "date_modified": "2026-08-24T16:23:57",
+        "date_modified_gmt": "2026-08-24T22:23:57",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_7007-scaled.jpeg",
+        "name": "IMG_7007",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 188709,
+          "key": "_last_change_time",
+          "value": "1787752414"
+        }
+      ],
+      "name": "Preto",
+      "parent_id": 11001,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations/11002",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/11001"
+          }
+        ]
+      }
+    }
+  ]
+}
