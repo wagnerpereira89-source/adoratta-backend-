@@ -6,20 +6,31 @@ duplicadas causadas pelo bug de "Aplicar a todos" / save-antes-de-carregar do
 A correção parou a criação de novas órfãs; este documento é sobre limpar as que já
 existem no catálogo.
 
-**Status (2026-10-21): Grupo Fácil FECHADO.** Dados completos em
-[`orfas-mapa.json`](./orfas-mapa.json) (194 linhas, snapshot de 2026-09-20 — ver nota de
-revalidação abaixo). Backups por produto, feitos antes de cada exclusão, em
-[`backup-orfas/`](./backup-orfas/). Variações apagadas vão pra **lixeira do WooCommerce**
-(sem `force=true`), não exclusão permanente — reversível até alguém esvaziar a lixeira.
+**Status (2026-10-22): Grupo Fácil FECHADO (31 produtos limpos). Grupo Delicado em
+decisão com a cliente.** Dados completos em [`orfas-mapa.json`](./orfas-mapa.json) (194
+linhas, snapshot de 2026-09-20 — ver nota de revalidação abaixo). Backups por produto,
+feitos antes de cada exclusão, em [`backup-orfas/`](./backup-orfas/). Variações apagadas
+vão pra **lixeira do WooCommerce** (sem `force=true`), não exclusão permanente —
+reversível até alguém esvaziar a lixeira.
 
-24 produtos do Grupo Fácil limpos de verdade (piloto Sobretudo Liza 3410 + 23 outros), 72
+31 produtos do Grupo Fácil limpos de verdade (piloto Sobretudo Liza 3410 + 30 outros), 96
 órfãs na lixeira. Os 2 publicados deixados pro final (Sobretudo Joice 3124, Regata Jeans
 6383) **já estavam resolvidos sozinhos** na revalidação — zero pares duplicados, contagem
 batendo o "esperado" original — mesmo caso do T-shirt Amalfi (10081), nada pra apagar.
-Com isso, todo o Grupo Fácil original (29 produtos) está contabilizado: limpos, já
-resolvidos sozinhos, ou reclassificados pro Delicado. Próximo passo é o Grupo Delicado
-(23 produtos do mapa original + 6622, 8585, 10605 reclassificados = 26), que precisa de
-confirmação de estoque com a cliente antes de qualquer exclusão.
+
+Gerei um relatório de decisão pra cliente pros 26 produtos do Grupo Delicado (mapa
+original + 6622, 8585, 10605 reclassificados), revalidando cada um ao vivo (estoque +
+o que a loja realmente mostra, extraído do HTML público). Resultado da revalidação:
+- **7 já resolvidos sozinhos** (Saia Michele 2668, Jaqueta Infantil 2939, Macaquinho
+  Gloria 6499, Macaquinho Angela 6519, Vestido Andressa 6527, Vestido Morgana 6531,
+  Casaco Valentina 6625) — nada a fazer.
+- **7 viraram rascunho** (sem risco de venda) — **limpos em 2026-10-22, igual Grupo
+  Fácil, sem precisar da cliente**: Blusa Geovana (8619, 4 órfãs), Shorts saia Aline
+  (9130, 2), Calça Maisa (10650, 14), Vestido Sabrina (11012, 3), T-shirt Bulldog 0025 02
+  (11037, 1), T-shirt coelho 0025 03 (11040, 1), T-shirt Matcha 0025 07 (11049, 2) — mais
+  27 órfãs na lixeira.
+- **12 produtos, 41 pares, ainda publicados de verdade** — aguardando confirmação da
+  cliente (relatório de decisão, link na conversa que gerou — não persistido aqui).
 
 ### Nota de revalidação (2026-10-04, atualizada 2026-10-21)
 
