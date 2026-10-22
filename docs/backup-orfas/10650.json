@@ -1,0 +1,3056 @@
+{
+  "backupTakenAt": "2026-10-22T02:09:51.771Z",
+  "product": {
+    "id": 10650,
+    "name": "Calça Maisa",
+    "status": "draft",
+    "attributes": [
+      {
+        "id": 1,
+        "name": "Cor",
+        "slug": "pa_cor",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "Marrom",
+          "Nude",
+          "Preto"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tamanho",
+        "slug": "pa_tamanho",
+        "position": 0,
+        "visible": true,
+        "variation": true,
+        "options": [
+          "PP",
+          "GG",
+          "G",
+          "M",
+          "P"
+        ]
+      }
+    ]
+  },
+  "variations": [
+    {
+      "id": 10682,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-10T14:25:12",
+      "date_modified_gmt": "2026-09-10T17:25:12",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=p",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10771,
+        "date_created": "2026-08-18T10:22:43",
+        "date_created_gmt": "2026-08-18T16:22:43",
+        "date_modified": "2026-08-18T10:22:43",
+        "date_modified_gmt": "2026-08-18T16:22:43",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-184-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179948,
+          "key": "_last_change_time",
+          "value": "1789061112"
+        }
+      ],
+      "name": "Preto, P",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10682",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10681,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-09T18:18:58",
+      "date_modified_gmt": "2026-09-09T21:18:58",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 180238,
+          "key": "_last_change_time",
+          "value": "1788988738"
+        }
+      ],
+      "name": "Preto, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10681",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10680,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-10T14:25:24",
+      "date_modified_gmt": "2026-09-10T17:25:24",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179950,
+          "key": "_last_change_time",
+          "value": "1789061124"
+        }
+      ],
+      "name": "Preto, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10680",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10679,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-24T15:14:50",
+      "date_modified_gmt": "2026-08-24T18:14:50",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179952,
+          "key": "_last_change_time",
+          "value": "1787595290"
+        }
+      ],
+      "name": "Preto, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10679",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10678,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-28T17:10:14",
+      "date_modified_gmt": "2026-08-28T20:10:14",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179954,
+          "key": "_last_change_time",
+          "value": "1787947814"
+        }
+      ],
+      "name": "Preto, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10678",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10677,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-24T15:34:30",
+      "date_modified_gmt": "2026-09-24T18:34:30",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=p",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179956,
+          "key": "_last_change_time",
+          "value": "1790274870"
+        }
+      ],
+      "name": "Nude, P",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10677",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10676,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-28T14:57:52",
+      "date_modified_gmt": "2026-09-28T17:57:52",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 192808,
+          "key": "_last_change_time",
+          "value": "1790618272"
+        }
+      ],
+      "name": "Nude, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10676",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10675,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-28T14:57:50",
+      "date_modified_gmt": "2026-09-28T17:57:50",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179935,
+          "key": "_last_change_time",
+          "value": "1790618270"
+        }
+      ],
+      "name": "Nude, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10675",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10674,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-24T15:15:02",
+      "date_modified_gmt": "2026-08-24T18:15:02",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179958,
+          "key": "_last_change_time",
+          "value": "1787595302"
+        }
+      ],
+      "name": "Nude, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10674",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10673,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-09T18:19:20",
+      "date_modified_gmt": "2026-09-09T21:19:20",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 180244,
+          "key": "_last_change_time",
+          "value": "1788988760"
+        }
+      ],
+      "name": "Nude, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10673",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10672,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-28T17:10:25",
+      "date_modified_gmt": "2026-08-28T20:10:25",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=p",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179960,
+          "key": "_last_change_time",
+          "value": "1787947825"
+        }
+      ],
+      "name": "Marrom, P",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10672",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10671,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-09-28T14:58:00",
+      "date_modified_gmt": "2026-09-28T17:58:00",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 181523,
+          "key": "_last_change_time",
+          "value": "1790618280"
+        }
+      ],
+      "name": "Marrom, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10671",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10670,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-24T15:15:23",
+      "date_modified_gmt": "2026-08-24T18:15:23",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179937,
+          "key": "_last_change_time",
+          "value": "1787595323"
+        }
+      ],
+      "name": "Marrom, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10670",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10669,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-28T17:10:31",
+      "date_modified_gmt": "2026-08-28T20:10:31",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179962,
+          "key": "_last_change_time",
+          "value": "1787947831"
+        }
+      ],
+      "name": "Marrom, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10669",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10668,
+      "type": "variation",
+      "date_created": "2026-08-17T18:23:31",
+      "date_created_gmt": "2026-08-17T21:23:31",
+      "date_modified": "2026-08-24T15:15:29",
+      "date_modified_gmt": "2026-08-24T18:15:29",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10666,
+        "date_created": "2026-08-17T15:17:56",
+        "date_created_gmt": "2026-08-17T21:17:56",
+        "date_modified": "2026-08-17T15:18:04",
+        "date_modified_gmt": "2026-08-17T21:18:04",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/IMG_6636-scaled.jpeg",
+        "name": "IMG_6636",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179964,
+          "key": "_last_change_time",
+          "value": "1787595329"
+        }
+      ],
+      "name": "Marrom, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10668",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10665,
+      "type": "variation",
+      "date_created": "2026-08-17T18:17:24",
+      "date_created_gmt": "2026-08-17T21:17:24",
+      "date_modified": "2026-08-24T15:15:36",
+      "date_modified_gmt": "2026-08-24T18:15:36",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10771,
+        "date_created": "2026-08-18T10:22:43",
+        "date_created_gmt": "2026-08-18T16:22:43",
+        "date_modified": "2026-08-18T10:22:43",
+        "date_modified_gmt": "2026-08-18T16:22:43",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-184-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179966,
+          "key": "_last_change_time",
+          "value": "1787595336"
+        }
+      ],
+      "name": "Preto, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10665",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10664,
+      "type": "variation",
+      "date_created": "2026-08-17T18:17:24",
+      "date_created_gmt": "2026-08-17T21:17:24",
+      "date_modified": "2026-08-24T15:15:39",
+      "date_modified_gmt": "2026-08-24T18:15:39",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10770,
+        "date_created": "2026-08-18T10:22:32",
+        "date_created_gmt": "2026-08-18T16:22:32",
+        "date_modified": "2026-08-18T10:22:32",
+        "date_modified_gmt": "2026-08-18T16:22:32",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-183-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179968,
+          "key": "_last_change_time",
+          "value": "1787595339"
+        }
+      ],
+      "name": "Nude, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10664",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10663,
+      "type": "variation",
+      "date_created": "2026-08-17T18:17:24",
+      "date_created_gmt": "2026-08-17T21:17:24",
+      "date_modified": "2026-08-24T15:15:40",
+      "date_modified_gmt": "2026-08-24T18:15:40",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=pp",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10769,
+        "date_created": "2026-08-18T10:22:22",
+        "date_created_gmt": "2026-08-18T16:22:22",
+        "date_modified": "2026-08-18T10:22:51",
+        "date_modified_gmt": "2026-08-18T16:22:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-182-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "PP"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 179970,
+          "key": "_last_change_time",
+          "value": "1787595340"
+        }
+      ],
+      "name": "Marrom, PP",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10663",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10661,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:33",
+      "date_created_gmt": "2026-08-17T21:16:33",
+      "date_modified": "2026-08-24T15:15:42",
+      "date_modified_gmt": "2026-08-24T18:15:42",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10771,
+        "date_created": "2026-08-18T10:22:43",
+        "date_created_gmt": "2026-08-18T16:22:43",
+        "date_modified": "2026-08-18T10:22:43",
+        "date_modified_gmt": "2026-08-18T16:22:43",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-184-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178663,
+          "key": "_last_change_time",
+          "value": "1787595342"
+        }
+      ],
+      "name": "Preto, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10661",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10660,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:33",
+      "date_created_gmt": "2026-08-17T21:16:33",
+      "date_modified": "2026-08-24T15:15:43",
+      "date_modified_gmt": "2026-08-24T18:15:43",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10771,
+        "date_created": "2026-08-18T10:22:43",
+        "date_created_gmt": "2026-08-18T16:22:43",
+        "date_modified": "2026-08-18T10:22:43",
+        "date_modified_gmt": "2026-08-18T16:22:43",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-184-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178662,
+          "key": "_last_change_time",
+          "value": "1787595343"
+        }
+      ],
+      "name": "Preto, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10660",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10659,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:45",
+      "date_modified_gmt": "2026-08-24T18:15:45",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=preto&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10771,
+        "date_created": "2026-08-18T10:22:43",
+        "date_created_gmt": "2026-08-18T16:22:43",
+        "date_modified": "2026-08-18T10:22:43",
+        "date_modified_gmt": "2026-08-18T16:22:43",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-184-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Preto"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178661,
+          "key": "_last_change_time",
+          "value": "1787595345"
+        }
+      ],
+      "name": "Preto, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10659",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10658,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:46",
+      "date_modified_gmt": "2026-08-24T18:15:46",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=p",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10770,
+        "date_created": "2026-08-18T10:22:32",
+        "date_created_gmt": "2026-08-18T16:22:32",
+        "date_modified": "2026-08-18T10:22:32",
+        "date_modified_gmt": "2026-08-18T16:22:32",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-183-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178659,
+          "key": "_last_change_time",
+          "value": "1787595346"
+        }
+      ],
+      "name": "Nude, P",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10658",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10657,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:47",
+      "date_modified_gmt": "2026-08-24T18:15:47",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10770,
+        "date_created": "2026-08-18T10:22:32",
+        "date_created_gmt": "2026-08-18T16:22:32",
+        "date_modified": "2026-08-18T10:22:32",
+        "date_modified_gmt": "2026-08-18T16:22:32",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-183-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178658,
+          "key": "_last_change_time",
+          "value": "1787595347"
+        }
+      ],
+      "name": "Nude, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10657",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10656,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:49",
+      "date_modified_gmt": "2026-08-24T18:15:49",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10770,
+        "date_created": "2026-08-18T10:22:32",
+        "date_created_gmt": "2026-08-18T16:22:32",
+        "date_modified": "2026-08-18T10:22:32",
+        "date_modified_gmt": "2026-08-18T16:22:32",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-183-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178657,
+          "key": "_last_change_time",
+          "value": "1787595349"
+        }
+      ],
+      "name": "Nude, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10656",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10655,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:50",
+      "date_modified_gmt": "2026-08-24T18:15:50",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=nude&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10770,
+        "date_created": "2026-08-18T10:22:32",
+        "date_created_gmt": "2026-08-18T16:22:32",
+        "date_modified": "2026-08-18T10:22:32",
+        "date_modified_gmt": "2026-08-18T16:22:32",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-183-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Nude"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178656,
+          "key": "_last_change_time",
+          "value": "1787595350"
+        }
+      ],
+      "name": "Nude, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10655",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10654,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:51",
+      "date_modified_gmt": "2026-08-24T18:15:51",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=p",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10769,
+        "date_created": "2026-08-18T10:22:22",
+        "date_created_gmt": "2026-08-18T16:22:22",
+        "date_modified": "2026-08-18T10:22:51",
+        "date_modified_gmt": "2026-08-18T16:22:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-182-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "P"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178654,
+          "key": "_last_change_time",
+          "value": "1787595351"
+        }
+      ],
+      "name": "Marrom, P",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10654",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10653,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:53",
+      "date_modified_gmt": "2026-08-24T18:15:53",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=m",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10769,
+        "date_created": "2026-08-18T10:22:22",
+        "date_created_gmt": "2026-08-18T16:22:22",
+        "date_modified": "2026-08-18T10:22:51",
+        "date_modified_gmt": "2026-08-18T16:22:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-182-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "M"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178653,
+          "key": "_last_change_time",
+          "value": "1787595353"
+        }
+      ],
+      "name": "Marrom, M",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10653",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10652,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:54",
+      "date_modified_gmt": "2026-08-24T18:15:54",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=g",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10769,
+        "date_created": "2026-08-18T10:22:22",
+        "date_created_gmt": "2026-08-18T16:22:22",
+        "date_modified": "2026-08-18T10:22:51",
+        "date_modified_gmt": "2026-08-18T16:22:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-182-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "G"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178652,
+          "key": "_last_change_time",
+          "value": "1787595354"
+        }
+      ],
+      "name": "Marrom, G",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10652",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10651,
+      "type": "variation",
+      "date_created": "2026-08-17T18:16:32",
+      "date_created_gmt": "2026-08-17T21:16:32",
+      "date_modified": "2026-08-24T15:15:57",
+      "date_modified_gmt": "2026-08-24T18:15:57",
+      "description": "",
+      "permalink": "https://adorattab.com.br/?post_type=product&p=10650&attribute_pa_cor=marrom&attribute_pa_tamanho=gg",
+      "sku": "0889",
+      "global_unique_id": "",
+      "price": "93.75",
+      "regular_price": "93.75",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": false,
+      "status": "publish",
+      "purchasable": true,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 0,
+      "stock_status": "outofstock",
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "weight": "0.5",
+      "dimensions": {
+        "length": "30",
+        "width": "25",
+        "height": "3"
+      },
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "image": {
+        "id": 10769,
+        "date_created": "2026-08-18T10:22:22",
+        "date_created_gmt": "2026-08-18T16:22:22",
+        "date_modified": "2026-08-18T10:22:51",
+        "date_modified_gmt": "2026-08-18T16:22:51",
+        "src": "https://adorattab.com.br/wp-content/uploads/2026/08/FullSizeRender-182-scaled.jpeg",
+        "name": "FullSizeRender",
+        "alt": ""
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Cor",
+          "slug": "pa_cor",
+          "option": "Marrom"
+        },
+        {
+          "id": 2,
+          "name": "Tamanho",
+          "slug": "pa_tamanho",
+          "option": "GG"
+        }
+      ],
+      "menu_order": 0,
+      "meta_data": [
+        {
+          "id": 178651,
+          "key": "_last_change_time",
+          "value": "1787595357"
+        }
+      ],
+      "name": "Marrom, GG",
+      "parent_id": 10650,
+      "_links": {
+        "self": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations/10651",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650/variations"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://adorattab.com.br/wp-json/wc/v3/products/10650"
+          }
+        ]
+      }
+    }
+  ]
+}
