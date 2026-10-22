@@ -6,27 +6,37 @@ duplicadas causadas pelo bug de "Aplicar a todos" / save-antes-de-carregar do
 A correção parou a criação de novas órfãs; este documento é sobre limpar as que já
 existem no catálogo.
 
-**Status (2026-10-04): limpeza do Grupo Fácil em andamento.** Dados completos em
+**Status (2026-10-21): Grupo Fácil quase concluído.** Dados completos em
 [`orfas-mapa.json`](./orfas-mapa.json) (194 linhas, snapshot de 2026-09-20 — ver nota de
 revalidação abaixo). Backups por produto, feitos antes de cada exclusão, em
 [`backup-orfas/`](./backup-orfas/). Variações apagadas vão pra **lixeira do WooCommerce**
 (sem `force=true`), não exclusão permanente — reversível até alguém esvaziar a lixeira.
 
-### Nota de revalidação (2026-10-04)
+24 produtos do Grupo Fácil limpos (piloto Sobretudo Liza 3410 + 23 outros), restam só os
+2 publicados deixados pro final (Sobretudo Joice 3124, Regata Jeans 6383).
 
-O `orfas-mapa.json` é um snapshot de 2026-09-20 — duas semanas antes da limpeza real
-começar. Na prática, 2 produtos que o mapa classificava como "Grupo Fácil" (draft, sem
-risco) **mudaram de estado real da loja** nesse intervalo:
+### Nota de revalidação (2026-10-04, atualizada 2026-10-21)
 
-- **Jaqueta Monica (6622)**: era draft no mapa, está **publish** agora, com uma órfã
-  (12277, par Verde/G) com estoque 1.
-- **Cropped Sol (8585)**: era draft no mapa, está **publish** agora, com órfãs em
-  estoque real nas 3 cores (7, 3 e 3 unidades).
+O `orfas-mapa.json` é um snapshot de 2026-09-20 — bem antes da limpeza real começar. Na
+prática, alguns produtos que o mapa classificava como "Grupo Fácil" (draft, sem risco)
+**mudaram de estado real da loja** nesse intervalo. Reclassificados pro Grupo Delicado
+(pulados sem nenhuma alteração):
 
-Os dois foram **pulados sem nenhuma alteração** e devem ser tratados como Grupo
-Delicado, não Fácil. **Regra adotada daqui pra frente**: antes de apagar qualquer órfã,
-revalidar status e estoque ao vivo (não confiar só no `orfas-mapa.json`) — só prossegue
-se o produto for `draft` OU todas as órfãs tiverem estoque 0 no momento da checagem.
+- **Jaqueta Monica (6622)**: era draft no mapa, virou **publish**, órfã (12277, par
+  Verde/G) com estoque 1.
+- **Cropped Sol (8585)**: era draft no mapa, virou **publish**, órfãs com estoque real
+  nas 3 cores (7, 3 e 3 unidades).
+- **Vestido Karen (10605)**: era draft no mapa, virou **publish**, com estoque em órfãs
+  (detectado na revalidação de 2026-10-21).
+
+**Caso à parte — T-shirt Amalfi 0025 (10081)**: o mapa indicava 1 órfã, mas na
+revalidação (2026-10-21) o produto já tinha só 1 variação — a duplicata já tinha sumido
+por conta própria (fora da nossa limpeza) antes de chegarmos nele. Nada a fazer, já está
+no estado final desejado.
+
+**Regra adotada desde então**: antes de apagar qualquer órfã, revalidar status e estoque
+ao vivo (não confiar só no `orfas-mapa.json`) — só prossegue se o produto for `draft` OU
+todas as órfãs tiverem estoque 0 no momento da checagem.
 
 ## Metodologia
 
