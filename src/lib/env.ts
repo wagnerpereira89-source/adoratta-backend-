@@ -47,4 +47,13 @@ export const env = {
       throw new Error("GA4_CREDENTIALS_JSON não é um JSON válido");
     }
   },
+  // Chave de API da LIBRARY do Bunny Stream (não a chave de conta) — só o
+  // backend conhece essa chave; o app só recebe o guid do vídeo + uma
+  // assinatura TUS temporária pra fazer upload direto.
+  get bunnyApiKey() {
+    return required("BUNNY_API_KEY");
+  },
+  get bunnyLibraryId() {
+    return required("BUNNY_LIBRARY_ID");
+  },
 };
